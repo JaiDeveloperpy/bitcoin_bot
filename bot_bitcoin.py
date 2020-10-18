@@ -9,7 +9,7 @@ import credentials
 def cliente():
     return bitstamp.client.Trading(username = credentials.USERNAME,
                                    key = credentials.KEY,
-                                   secret = credentials.KEY)
+                                   gitsecret = credentials.KEY)
 
 
 def buy(quantity):
